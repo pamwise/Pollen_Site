@@ -1,0 +1,23 @@
+title: "Pollen Site"
+baseurl: "" # no subdirectory
+url: "https://pamwise.github.io" # change to your actual URL later
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Optional defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+sass:
+  sass_dir: assets/scss
